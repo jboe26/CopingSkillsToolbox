@@ -13,25 +13,18 @@ export default function Layout() {
         tabBarLabelStyle: { fontSize: 11, fontWeight: '600' },
       }}
     >
-<Tabs.Screen
-  name="index"
-  options={{
-    title: 'Home',
-    tabBarIcon: ({ color, size }) => <Ionicons name="home" size={size} color={color} />,
-  }}
-/>
-<Tabs.Screen
-  name="toolbox"
-  options={{
-    title: 'Toolbox',
-    tabBarIcon: ({ color, size }) => <Ionicons name="briefcase" size={size} color={color} />,
-  }}
-/>
       <Tabs.Screen
-        name="exercises"
+        name="index"
         options={{
-          title: 'Exercises',
-          tabBarIcon: ({ color, size }) => <Ionicons name="fitness" size={size} color={color} />,
+          title: 'Home',
+          tabBarIcon: ({ color, size }) => <Ionicons name="home" size={size} color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="toolbox"
+        options={{
+          title: 'Toolbox',
+          tabBarIcon: ({ color, size }) => <Ionicons name="briefcase" size={size} color={color} />,
         }}
       />
       <Tabs.Screen
