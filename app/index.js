@@ -169,7 +169,7 @@ export default function Home() {
         </Text>
         <View style={{ flexDirection: 'row', gap: 10, marginBottom: 24 }}>
           {quickAction('Check in', '✏️', 'checkin')}
-          {quickAction('Skills', '🧰', 'toolbox')}
+          {quickAction('Toolbox', '🧰', 'toolbox')}
         </View>
 
         {/* Recent check-ins */}
